@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useSyncExternalStore } from 'react';
+import React, { useState, useEffect } from 'react';
 import Grid from './components/Grid';
 import RulesModal from './components/RulesModal';
 import FailModal from './components/FailModal';
@@ -51,7 +51,7 @@ function App() {
     setTimeout(() => {
       setShowSequence(false);
     }, 3000); // Show sequence for 3 seconds
-  }, [currentLevel]);
+  }, [highScore, currentLevel]);
 
   
 
