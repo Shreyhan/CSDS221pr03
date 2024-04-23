@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.grid {
+    /* margin: 2%; */
+}
+.modal {
+    display: block;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+}
+.test {
+    background-color: #f6e3d0;
+}
+.title {
+    color: #6633ff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.levelLabel {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f18701;
+    padding-bottom: 2%;
+}
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lives {
+    color: #d34a24;
+}
+
+.highScore {
+    color: #006660;
+}
+
+#ruleHead {
+    background-color: #112396;
+    color: white;
+}
+
+#failHead {
+    background-color: rgb(148, 26, 26);
+    color: white;
+}
